@@ -1,0 +1,68 @@
+.MyButton
+{
+    text-transform: lowercase;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    font-weight: 500;
+}
+
+.buttonPrimary
+{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.buttonPrimary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.buttonSecondary{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.buttonSecondary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.buttonTerceiro:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: solid 1px white;
+    transition: all ease-out 0.2s;
+}
+
+.buttonTerceiro {
+    transition: all ease-out 0.2s;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: 700;
+}
+
+.titulo
+{
+    text-transform: uppercase;
+}
+
+.subtitulo
+{
+    color: var(--medium);
+    font-weight: 400;
+}
+
+.espaco
+{
+    margin-bottom: 100px;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
