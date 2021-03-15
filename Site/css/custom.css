@@ -3,6 +3,12 @@ html, body
     font-family: 'Roboto', sans-serif;
 }
 
+body
+{
+    background: url('../midia/footer-bg.png') no-repeat bottom center;
+    padding-bottom: 350px;
+}
+
 header{
     width: 100%;
     background: transparent;
@@ -227,16 +233,63 @@ header .nav-link:hover{
     transition: all ease-out 0.2s;
 }
 
-#contato .container {
+#contato .email
+{
+    padding: 120px 30px;
     background-color: var(--secondary);
     border-radius: 5px;
 }
 
-.texto-contato {
-    padding-top: 100px;
-    padding-bottom: 100px;
+#contato .email form
+{
+    width: 60%;
+    display: flex;
 }
 
-.inputContato {
-    width: auto;
+#contato .email img
+{
+    top: -30px;
+    left: 30px;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder
+{
+    background: none;
+    color: white;
+}
+
+#contato .rodape ul li
+{
+    display: flex;
+    list-style-type: none;
+}
+
+#contato .rodape ul li + li
+{
+    margin-left: 25px;
+}
+
+#contato .rodape ul li a
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: all ease-in-out 0.2s;
+}
+
+#contato .rodape ul li a:hover
+{
+    background: var(--light);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+}
+
+#contato .rodape ul li a img 
+{
+    max-height: 50%;
 }
